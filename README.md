@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Source Code](https://github.com/farhannhdyt/intro-section-front-end-mentor)
-- Live Site URL: [Demo](https://intro-section-front-end-mentor.netlify.app/)
+- Live Site URL: [Demo](https://snap-frontend-mentor.netlify.app)
 
 ## My process
 
