@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+
+  <!-- Header section -->
+  <header class="header">
+    <div class="logo-wrapper">
+      <a href="#">
+        <img src="images/logo.svg" alt="Logo" class="logo-image">
+      </a>
+    </div>
+
+    <ul class="item header-menu-left">
+      <li>
+        <div class="dropdown-wrapper">
+          <button class="button-dropdown">Features <img src="images/icon-arrow-down.svg" class="arrow-icon"></button>
+
+          <div class="dropdown-menu features hide">
+            <a href="#"><img src="images/icon-todo.svg" alt=""> Todo List</a>
+            <a href="#"><img src="images/icon-calendar.svg" alt=""> Calendar</a>
+            <a href="#"><img src="images/icon-reminders.svg" alt=""> Reminders</a>
+            <a href="#"><img src="images/icon-planning.svg" alt=""> Planning</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="dropdown-wrapper">
+          <button class="button-dropdown">Company <img src="images/icon-arrow-down.svg" class="arrow-icon"></button>
+          
+          <div class="dropdown-menu company hide">
+            <a href="#">History</a>
+            <a href="#">Our Team</a>
+            <a href="#">Blog</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <a href="#">Careers</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+    </ul>
+
+    <ul class="item header-menu-right">
+      <li>
+        <a href="#">Login</a>
+      </li>
+      <li>
+        <a href="#" class="button-register-cta">Register</a>
+      </li>
+    </ul>
+
+    <div class="button-menu-wrapper">
+      <button class="button-menu-open" id="button-menu-open">
+        <img src="images/icon-menu.svg" alt="">
+      </button>
+    </div>
+  </header>
+
+  <!-- header menu responsive -->
+  <div class="overlay" id="overlay">
+    <aside class="aside" id="aside-menu">
+      <div class="button-menu-wrapper">
+        <button class="button-menu-close" id="button-menu-close">
+          <img src="images/icon-close-menu.svg" alt="">
+        </button>
+      </div>
+
+      <ul class="aside-menu-top">
+        <li>
+          <div class="dropdown-wrapper">
+            <button class="button-dropdown">Features <img src="images/icon-arrow-down.svg" class="arrow-icon"></button>
+  
+            <div class="dropdown-menu hide">
+              <a href="#"><img src="images/icon-todo.svg" alt=""> Todo List</a>
+              <a href="#"><img src="images/icon-calendar.svg" alt=""> Calendar</a>
+              <a href="#"><img src="images/icon-reminders.svg" alt=""> Reminders</a>
+              <a href="#"><img src="images/icon-planning.svg" alt=""> Planning</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown-wrapper">
+            <button class="button-dropdown">Company <img src="images/icon-arrow-down.svg" class="arrow-icon"></button>
+            
+            <div class="dropdown-menu hide">
+              <a href="#">History</a>
+              <a href="#">Our Team</a>
+              <a href="#">Blog</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#">Careers</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+      </ul>
+
+      <ul class="aside-menu-bottom">
+        <li>
+          <a href="#">Login</a>
+        </li>
+        <li>
+          <a href="#" class="button-register-cta">Register</a>
+        </li>
+      </ul>
+    </aside>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-desc">
+        <h1>Make <br />remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.</p>
+
+        <a href="#" class="btn-dark-outline-cta">Learn more</a>
+
+        <div class="client-logo-wrapper">
+          <img src="images/client-databiz.svg" alt="" class="client-logo">
+          <img src="images/client-audiophile.svg" alt="" class="client-logo">
+          <img src="images/client-meet.svg" alt="" class="client-logo">
+          <img src="images/client-maker.svg" alt="" class="client-logo">
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <img src="images/image-hero-mobile.png" class="img-hero-mobile" alt="" srcset="">
+        <img src="images/image-hero-desktop.png" class="img-hero-desktop" alt="" srcset="">
+      </div>
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
