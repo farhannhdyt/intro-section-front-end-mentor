@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Source Code](https://github.com/farhannhdyt/intro-section-front-end-mentor)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Demo](https://intro-section-front-end-mentor.netlify.app/)
 
 ## My process
 
@@ -45,6 +45,6 @@ Users should be able to:
 ## Author
 
 - Website - [Farhan Nur Hidayat](https://www.farhannhdyt.vercel.app)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/farhannhdyt)
+- Frontend Mentor - [@farhannhdyt](https://www.frontendmentor.io/profile/farhannhdyt)
 - Instagram - [@farhaanhdytt](https://www.instagram.com/farhaanhdytt)
 
